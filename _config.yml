@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Han Jungu
+name: 한준구
 title: Software Engineer
 email: semicolok@gmail.com
 website: semicolok.github.io
@@ -48,17 +48,15 @@ linkedin_username: junguhan
 about_title: About Me
 about_profile_image: images/profile_1.jpg
 about_content: | 
-    - Ambitious developer who enjoys learning all kind of knowledge. Interest in "Full-stack engineer". Having experience in all sides of web project. (back-end, front-end)
-    - A skilled Java developer with proven expertise in using new tools and technical developments to drive improvements during entire software development life cycle.
-    - Having extensive experience in a Java based environment, along with architecture, design and development of distributed systems.
-    - Looking for an ambitious company that will challenge me and allow me to continue to develop my knowledge and potential.
+    - 내용 1
+    - 내용 2
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Kakao Bank
+        title: 카카오 뱅크 (Kakao Bank)
         link: https://www.kakaobank.com/
         # link_text: boringcompany.com
         sub_title: Software Engineer
@@ -70,7 +68,7 @@ content:
             - Develop docker deployment system. (Ansible, Jenkins, spring boot, gradle, MongoDB)
             - Sustaining IAM system. (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
       - layout: left
-        title: Rakuten, Inc.
+        title: 라쿠텐 (Rakuten, Inc.)
         link: https://www.rakuten.com/
         sub_title: Software Engineer
         caption: Feb 2017 - Mar 2020
@@ -89,7 +87,7 @@ content:
               - Migrate file driven system and batch job system to API based system.  
 
       - layout: left
-        title: TICKETMONSTER INC.
+        title: 티켓몬스터 (TICKETMONSTER INC.)
         link: https://www.tmon.co.kr/
         sub_title: Software Engineer
         caption: May 2016 - Dec 2016
@@ -102,7 +100,7 @@ content:
             - Investigating alternate configurations & implementing better solutions.
             - Sustaining products API and web pages.
       - layout: left
-        title: Forward Ventures Co.,Ltd (Coupang)
+        title: 쿠팡 (Forward Ventures Co.,Ltd)
         link: https://www.coupang.com/
         sub_title: Software Engineer
         caption: Mar 2015 - Apr 2016
@@ -117,7 +115,7 @@ content:
             - Mentoring and coaching junior developers.
             - Sustaining Shopping Cart & Live Chatting Service.
       - layout: left
-        title: Software in Life Inc.
+        title: 소프트웨어인라이프 (Software in Life Inc.)
         link: https://www.docswave.com/
         sub_title: Software Engineer
         caption: Nov 2011 - Mar 2015
@@ -132,16 +130,6 @@ content:
             - Investigating alternate configurations & implementing better solutions.
             - Mentoring and coaching junior developers.
             - Meeting client’s face to face at their offices.
-      - layout: left
-        title: Republic of Korea Army
-        link: https://www.mnd.go.kr/
-        sub_title: Staff Sergeant
-        caption: Jun 2006 - Jun 2010
-        quote: >
-          Artillery Sergeant
-        description: | # this will include new lines to allow paragraphs
-            - Training soldiers to learn how to fight with our enemies using a towed artillery named KH-179.
-
   - title: Skills
     layout: list # Type of content section (list/text)
     content:
@@ -171,9 +159,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Baekseok University
+        title: 백석 대학교
         caption: 2003 - 2012
-        sub_title: BSc Multimedia Engineering
+        sub_title: 멀티미디어학 (BSc Multimedia Engineering)
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         # description: | # this will include new lines to allow paragraphs
@@ -184,7 +172,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | 
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      취미:
       - Powerlifting
       - Bouldering
       - Traveling
