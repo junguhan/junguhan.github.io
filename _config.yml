@@ -1,0 +1,207 @@
+# Site
+repository: semicolok/semicolok.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Han Jungu
+title: Software Engineer
+email: semicolok@gmail.com
+website: semicolok.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: semicolok
+github_username: semicolok
+# stackoverflow_username: "00000001"
+# dribbble_username: semicolok
+facebook_username: semicolok
+# flickr_username: semicolok
+# instagram_username: jameswgrant
+linkedin_username: junguhan
+# xing_username: jekyll
+# pinterest_username: semicolok
+# youtube_username: jknyou
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile_1.jpg
+about_content: | 
+    - Ambitious developer who enjoys learning all kind of knowledge. Interest in "Full-stack engineer". Having experience in all sides of web project. (back-end, front-end)
+    - A skilled Java developer with proven expertise in using new tools and technical developments to drive improvements during entire software development life cycle.
+    - Having extensive experience in a Java based environment, along with architecture, design and development of distributed systems.
+    - Looking for an ambitious company that will challenge me and allow me to continue to develop my knowledge and potential.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Kakao Bank
+        link: https://www.kakaobank.com/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: Feb 2020 - Present
+        quote: >
+          DevOps Platform Team  
+        description: | # this will include new lines to allow paragraphs
+            - Develop file management system. (MinIO, spring boot, spring security OAuth2.0, gradle, MySQL)
+            - Develop docker deployment system. (Ansible, Jenkins, spring boot, gradle, MongoDB)
+            - Sustaining IAM system. (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
+      - layout: left
+        title: Rakuten, Inc.
+        link: https://www.rakuten.com/
+        sub_title: Software Engineer
+        caption: Feb 2017 - Mar 2020
+        quote: >
+          Network Division  
+        description: | 
+            - Develop REST API with Spring. (User-API, Product-API, Mobile-data-API)
+            - Develop authentication provider for microservices.
+            - 3rd party API integration (GitLab, Google Billing API, Rakuten services API)
+            - Build Microservice Architecture.
+            - Break large software project into loosely coupled modules which communicate with each other via REST APIs.
+              - Dockernize API modules
+              - Configure GKE(Google Kubernetes Engine), Gateway and ISTIO  
+            - Migrate legacy project
+              - Migrate PL/SQL which has business logic to Spring framework + JPA
+              - Migrate file driven system and batch job system to API based system.  
+
+      - layout: left
+        title: TICKETMONSTER INC.
+        link: https://www.tmon.co.kr/
+        sub_title: Software Engineer
+        caption: May 2016 - Dec 2016
+        quote: >
+          Service Development Lab
+        description: | 
+            - Responsible for developing products API.
+            - Migrating legacy code. (PHP & CodIgniter => Java & Spring framework)
+            - Development of Java interfaces & Setting up development environment. 
+            - Investigating alternate configurations & implementing better solutions.
+            - Sustaining products API and web pages.
+      - layout: left
+        title: Forward Ventures Co.,Ltd (Coupang)
+        link: https://www.coupang.com/
+        sub_title: Software Engineer
+        caption: Mar 2015 - Apr 2016
+        quote: >
+          Team Rossetta
+        description: | 
+            - Responsible for developing Shopping Cart project and Live Chatting Service for customers.
+            - Migrating Shopping cart legacy code. (MyBatis & Maven & Spring => Spring-data-jpa & Gradle & Spring)  
+            - Designing, developing and maintaining Live Chatting service. (NodeJS, Spring, handlebars)
+            - Development of Java interfaces & Configuration Management of the source code.
+            - Investigating alternate configurations & implementing better solutions.
+            - Mentoring and coaching junior developers.
+            - Sustaining Shopping Cart & Live Chatting Service.
+      - layout: left
+        title: Software in Life Inc.
+        link: https://www.docswave.com/
+        sub_title: Software Engineer
+        caption: Nov 2011 - Mar 2015
+        quote: >
+          R&D Center
+        description: | 
+            - Designing, developing and maintaining the entire application using Spring framework and AngularJS.
+            - Working with other developers to build technical solutions & complete projects.
+            - Developing new web based projects, components & functionality to exist in systems.
+            - Development of Java interfaces & Configuration Management of the source code.
+            - Solving problems and bugs.
+            - Investigating alternate configurations & implementing better solutions.
+            - Mentoring and coaching junior developers.
+            - Meeting client’s face to face at their offices.
+      - layout: left
+        title: Republic of Korea Army
+        link: https://www.mnd.go.kr/
+        sub_title: Staff Sergeant
+        caption: Jun 2006 - Jun 2010
+        quote: >
+          Artillery Sergeant
+        description: | # this will include new lines to allow paragraphs
+            - Training soldiers to learn how to fight with our enemies using a towed artillery named KH-179.
+
+  - title: Skills
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Languages
+        description: | 
+            Java, Javascript, HTML, Scala, Groovy, Python, SQL, PL/SQL
+      - layout: left
+        title: Standards / Frameworks
+        description: | 
+            Spring, Spring-boot, Spring-cloud, Spring-security, Spring-data, Spring-data-redis, Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Ehcache, Servlet, AJAX, JQuery, RESTful, Flyway, Junit, Mockito, Spock, Play framework, Skinny-orm,  Django, Grails, AngularJS, NodeJS, ReactJS
+      - layout: left
+        title: Web Servers / Application Servers
+        description: | 
+            Apache, Nginx, Tomcat, Jetty, GlassFish
+      - layout: left
+        title: Databases
+        description: | 
+            Oracle, MySQL, MariaDB, Redis, MongoDB, Google Cloud SQL, Google Datastore
+      - layout: left
+        title: Development / Environment Tools / Techniques
+        description: | 
+            Git, Subversion, Jenkins, Jira, Google Compute Engine, Google Kubernetes Engine, AWS, Azure, Nexus, JMeter, nGrinder, Pinpoint, DC/OS, Kubernetes, Docker
+      
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Baekseok University
+        caption: 2003 - 2012
+        sub_title: BSc Multimedia Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  - title: A Little More About Me
+    layout: text
+    content: | 
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Powerlifting
+      - Bouldering
+      - Traveling
+
+  #     Look at this cool image  
+  #     ![Trees](images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
