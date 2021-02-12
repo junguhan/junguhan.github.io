@@ -156,12 +156,10 @@ content:
       
 
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 백석 대학교
-        caption: 2003 - 2012
-        sub_title: 멀티미디어학 (BSc Multimedia Engineering)
+    layout: text # Type of content section (list/text)
+    title: 백석대학교
+    caption: 2003 - 2012
+    sub_title: 멀티미디어학 학사 (BSc Multimedia Engineering)
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         # description: | # this will include new lines to allow paragraphs
