@@ -48,8 +48,19 @@ linkedin_username: junguhan
 about_title: About Me
 about_profile_image: images/profile_1.jpg
 about_content: | 
-    - 내용 1
-    - 내용 2
+    안녕하세요 한준구입니다.
+
+    2011년에 Java 개발자로 일하기 시작해서 현재는 일본에서 일하고 있습니다.
+
+    Startup, E-Commerce, 일본 IT회사, Internet Bank까지 다양한 경험을 통해 Middleware에서 Application까지 폭 넓은 경험을 가지고 있는 개발자입니다.
+
+    여느 개발자들처럼 신기술에 관심이 많고 배우는 것을 즐깁니다. 하지만 기술보다는 서비스가 더 중요하다고 생각 하는 개발자입니다.
+
+    그 어떤 좋은 기술이라도 서비스에 문제가 생긴다면 그 기술들의 가치는 빛을 보지 못하기 때문에 항상 서비스 관점에서 먼저 생각하고 적합한 기술을 선택하고 충분히 기술을 검증후에 사용하려고 노력하는 개발자 입니다.
+
+    남들 보다 길었던 군생활로 사회생활 시작이 조금 늦었지만, 그 길었던 시간만큼 더 주도적이고 책임감 있는 사람으로 사회생활을 시작하였습니다. 그래서 지금은 빨리 시작한 개발자분들과 비교해 뒤쳐지지 않는 개발자가 되었다고 생각합니다.
+
+    감사합니다.
 
 content:
   - title: Experience # Title for the section
@@ -64,27 +75,23 @@ content:
         quote: >
           DevOps Platform Team  
         description: | # this will include new lines to allow paragraphs
-            - Develop file management system. (MinIO, spring boot, spring security OAuth2.0, gradle, MySQL)
-            - Develop docker deployment system. (Ansible, Jenkins, spring boot, gradle, MongoDB)
-            - Sustaining IAM system. (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
+            - S3기반의 파일 관리 시스템 개발 (MinIO, spring boot, spring security OAuth2.0, gradle, MySQL)
+            - 도커 배포 시스템 개발 (Ansible, Jenkins, spring boot, gradle, MongoDB)
+            - 계정관리 시스템 개발 (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
       - layout: left
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://www.rakuten.com/
-        sub_title: Software Engineer
+        sub_title: Software Engineer & DevOps Team Leader
         caption: Feb 2017 - Mar 2020
         quote: >
           Network Division  
         description: | 
-            - Develop REST API with Spring. (User-API, Product-API, Mobile-data-API)
-            - Develop authentication provider for microservices.
-            - 3rd party API integration (GitLab, Google Billing API, Rakuten services API)
-            - Build Microservice Architecture.
-            - Break large software project into loosely coupled modules which communicate with each other via REST APIs.
-              - Dockernize API modules
-              - Configure GKE(Google Kubernetes Engine), Gateway and ISTIO  
-            - Migrate legacy project
-              - Migrate PL/SQL which has business logic to Spring framework + JPA
-              - Migrate file driven system and batch job system to API based system.  
+            - Rakuten Mobile App server 개발 (Java, Spring-boot, Gradle) 
+            - CS AI Chabot 개발 (Vaadin, Spring-boot, Maven) 
+            - Microservice API 개발 (Spring-cloud, Gradle)
+            - Distributed operating system 구축 (DC/OS, Azure, Kubernetes, Istio, GCP)
+            - Third party API Integration (KDDI, Docomo, Google)
+            - Legacy system migration (Perl and PL/SQL to Java, Spring and JPA)
 
       - layout: left
         title: 티켓몬스터 (TICKETMONSTER INC.)
@@ -94,11 +101,9 @@ content:
         quote: >
           Service Development Lab
         description: | 
-            - Responsible for developing products API.
-            - Migrating legacy code. (PHP & CodIgniter => Java & Spring framework)
-            - Development of Java interfaces & Setting up development environment. 
-            - Investigating alternate configurations & implementing better solutions.
-            - Sustaining products API and web pages.
+            - Deal contents part 개발 (Jave, Spring, Maven, AngularJS)
+            - “Shoppable project” Back-end 개발 (Java, Spring, Gradle)
+
       - layout: left
         title: 쿠팡 (Forward Ventures Co.,Ltd)
         link: https://www.coupang.com/
@@ -107,29 +112,28 @@ content:
         quote: >
           Team Rossetta
         description: | 
-            - Responsible for developing Shopping Cart project and Live Chatting Service for customers.
-            - Migrating Shopping cart legacy code. (MyBatis & Maven & Spring => Spring-data-jpa & Gradle & Spring)  
-            - Designing, developing and maintaining Live Chatting service. (NodeJS, Spring, handlebars)
-            - Development of Java interfaces & Configuration Management of the source code.
-            - Investigating alternate configurations & implementing better solutions.
-            - Mentoring and coaching junior developers.
-            - Sustaining Shopping Cart & Live Chatting Service.
+            - CS Platform
+              - Chatting server 개발(NodeJS, Spring, Gradle)
+              - Application server 개발 (Linux, Java, Spring, Gradle)
+              - Web client 개발 (JavaScript, handlebars)
+            - Biz Platform
+              - Application server 개발 (Linux, Java, Spring)
+              - Web client 개발 (JavaScript, ReactJS, Handlebars)
+              - System migration.
+
       - layout: left
         title: 소프트웨어인라이프 (Software in Life Inc.)
         link: https://www.docswave.com/
-        sub_title: Software Engineer
+        sub_title: Software Engineer & Solution Part Leader
         caption: Nov 2011 - Mar 2015
         quote: >
           R&D Center
         description: | 
-            - Designing, developing and maintaining the entire application using Spring framework and AngularJS.
-            - Working with other developers to build technical solutions & complete projects.
-            - Developing new web based projects, components & functionality to exist in systems.
-            - Development of Java interfaces & Configuration Management of the source code.
-            - Solving problems and bugs.
-            - Investigating alternate configurations & implementing better solutions.
-            - Mentoring and coaching junior developers.
-            - Meeting client’s face to face at their offices.
+            - System Architecture 설계 (application, technical, data)
+            - Application server 개발 (Linux, Java, Spring, Maven, Gradle, Python, django)
+            - Web client 개발 (JavaScript, AngularJS)
+            - Android 개발
+
   - title: Skills
     layout: list # Type of content section (list/text)
     content:
@@ -156,10 +160,12 @@ content:
       
 
   - title: Education # Title for the section
-    layout: text # Type of content section (list/text)
-    title: 백석대학교
-    caption: 2003 - 2012
-    sub_title: 멀티미디어학 학사 (BSc Multimedia Engineering)
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 백석대학교
+        caption: 2003 - 2012
+        sub_title: 멀티미디어학 학사 (BSc Multimedia Engineering)
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         # description: | # this will include new lines to allow paragraphs
