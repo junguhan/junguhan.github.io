@@ -77,10 +77,11 @@ content:
           Full-Stack Hospitality Service Provider
         description: | 
             - 파트너센터 Backend 개발 (Java, Spring Boot, Gradle)
-            - 파트너센터 관리자 Backend 개발 (Java, Spring Boot)
-            - 제휴입점 관리자 Backend 개발 (Kotlin, Spring Boot, Spring Cloud Gateway)
-            - 예약관리 시스템 Backend 개발 (Java, Spring Boot)
-            - 호텔 데이터 통합 Backend 개발 & data migration
+            - 파트너센터 관리자 Backend 개발 (Java, Spring Boot, Gradle)
+            - 제휴입점 관리자 Backend 개발 (Kotlin, Spring Boot, Spring Cloud Gateway, Gradle)
+            - Reservation API 개발 (Java, Spring Boot, Gradle, Kafka)
+            - Rateplan API 개발 (Java, Spring Boot, Gradle, Kafka)
+            - 호텔 데이터 통합 Backend 개발 & Data migration (Java, PHP, Spring Boot, Gradle, Kafka)
       - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
         link: https://www.kakaobank.com/
@@ -167,11 +168,11 @@ content:
       - layout: left
         title: Databases
         description: | 
-            Oracle, MySQL, MariaDB, Redis, MongoDB, Google Cloud SQL, Google Datastore
+            Oracle, MySQL, MariaDB, Redis, MongoDB, Google Cloud SQL, Google Datastore, AWS Aurora
       - layout: left
         title: Development / Environment Tools / Techniques
         description: | 
-            Git, Subversion, Jenkins, Jira, Google Compute Engine, Google Kubernetes Engine, AWS, Azure, Nexus, JMeter, nGrinder, Pinpoint, DC/OS, Kubernetes, Docker
+            Git, Subversion, Jenkins, Jira, Google Compute Engine, Google Kubernetes Engine, AWS, Azure, Nexus, JMeter, nGrinder, Pinpoint, DC/OS, Kubernetes, Docker, Kafka
       
 
   - title: Education # Title for the section
