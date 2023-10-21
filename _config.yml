@@ -91,9 +91,9 @@ content:
         quote: >
           Top internet-only lender Kakao Bank  
         description: | # this will include new lines to allow paragraphs
-            - S3기반의 파일 관리 시스템 개발 (MinIO, spring boot, spring security OAuth2.0, gradle, MySQL)
-            - 도커 배포 시스템 개발 (Ansible, Jenkins, spring boot, gradle, MongoDB)
-            - 계정관리 시스템 개발 (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
+            - S3기반의 파일 관리 시스템 개발 (MinIO, Spring Boot, Spring Security OAuth2.0, Gradle, MySQL)
+            - 도커 배포 시스템 개발 (Ansible, Jenkins, Spring Boot, Gradle, MongoDB)
+            - 계정관리 시스템 개발 (OpenLDAP, Spring Boot, Gradle, Orcacle, MySQL)
       - layout: left
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://www.rakuten.com/
@@ -102,8 +102,8 @@ content:
         quote: >
           Japanese e-commerce and online retailing company based in Tokyo  
         description: | 
-            - Rakuten Mobile App server 개발 (Java, Spring-boot, Gradle) 
-            - CS AI Chabot 개발 (Vaadin, Spring-boot, Maven) 
+            - Rakuten Mobile App server 개발 (Java, Spring Boot, Gradle) 
+            - CS AI Chabot 개발 (Vaadin, Spring Boot, Maven) 
             - Microservice API 개발 (Spring-cloud, Gradle)
             - Distributed operating system 구축 (DC/OS, Azure, Kubernetes, Istio, GCP)
             - Third party API Integration (KDDI, Docomo, Google)
