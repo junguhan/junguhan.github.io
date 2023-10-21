@@ -76,10 +76,11 @@ content:
         quote: >
           Full-Stack Hospitality Service Provider
         description: | 
-            - 파트너센터
-            - 파트너센터 관리자
-            - 제휴입점 관리자
-            - 예약관리
+            - 파트너센터 Backend 개발 (Java, Spring Boot, Gradle)
+            - 파트너센터 관리자 Backend 개발 (Java, Spring Boot)
+            - 제휴입점 관리자 Backend 개발 (Kotlin, Spring Boot, Spring Cloud Gateway)
+            - 예약관리 시스템 Backend 개발 (Java, Spring Boot)
+            - 호텔 데이터 통합 Backend 개발 & data migration
       - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
         link: https://www.kakaobank.com/
@@ -116,7 +117,7 @@ content:
           The first social commerce operator in Korea
         description: | 
             - Deal contents part 개발 (Jave, Spring, Maven, AngularJS)
-            - “Shoppable project” Back-end 개발 (Java, Spring, Gradle)
+            - “Shoppable project” Backend 개발 (Java, Spring, Gradle)
 
       - layout: left
         title: 쿠팡 (Forward Ventures Co.,Ltd)
@@ -154,7 +155,7 @@ content:
       - layout: left
         title: Languages
         description: | 
-            Java, Javascript, HTML, Scala, Groovy, Python, SQL, PL/SQL
+            Java, Javascript, Kotlin, Scala, Groovy, Python, SQL, PL/SQL
       - layout: left
         title: Standards / Frameworks
         description: | 
