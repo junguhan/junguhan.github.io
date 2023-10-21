@@ -68,15 +68,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 야놀자 (Yanolja Co.,Ltd)
-        link: https://www.yanolja.com/
-        sub_title: Software Engineer
-        caption: Sep 2021 - Present
-        quote: >
-          aaa
-        description: | 
-            - 계정관리 시스템 개발 (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
-      - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
         link: https://www.kakaobank.com/
         # link_text: boringcompany.com
