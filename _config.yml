@@ -81,6 +81,7 @@ content:
             - 제휴입점 관리자 Backend 개발 (Kotlin, Spring Boot, Spring Cloud Gateway, Gradle)
             - Reservation API 개발 (Java, Spring Boot, Gradle, Kafka)
             - Rateplan API 개발 (Java, Spring Boot, Gradle, Kafka)
+            - 외부 시스템 연동(한화, 대명, 데일리호텔)
             - 호텔 데이터 통합 Backend 개발 & Data migration (Java, PHP, Spring Boot, Gradle, Kafka)
       - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
