@@ -74,9 +74,12 @@ content:
         sub_title: Software Engineer
         caption: Sep 2021 - Present
         quote: >
-          aaa
+          Full-Stack Hospitality Service Provider
         description: | 
-            - 계정관리 시스템 개발 (OpenLDAP, spring boot, gradle, Orcacle, MySQL)
+            - 파트너센터
+            - 파트너센터 관리자
+            - 제휴입점 관리자
+            - 예약관리
       - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
         link: https://www.kakaobank.com/
