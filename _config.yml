@@ -89,9 +89,10 @@ content:
             - 모텔 선매입 BM 도입 (Java, Kotlin, Spring Boot, Spring Data JPA, Spring Cloud OpenFeign, Kafka, Gradle, Slack API, Apache POI)
               - 제휴입점관리자에 모텔 선매입 요금제 등록 기능 개발
               - 계약 API를 연동하여 계약 상태 validation
-              - 파트너센터/관리자에 모텔 선매입 요금제/판매설정 관리 기능 개발
-              - 파트너센터/관리자에 모텔 선매입 판매설정 일괄 업데이트, 업데이트 내역 관리 기능 개발
-              - 파트너센터/관리자에 모텔 선매입 매출/예약 관리 기능 개발
+              - 파트너센터/관리자에 모텔 선매입 관리 기능
+                - 요금제/판매설정 관리 기능 개발
+                - 판매설정 일괄 업데이트, 업데이트 내역 관리 기능 개발
+                - 매출/예약 관리 기능 개발
               - 이벤트 알림 기능(매진 임박, 오버부킹 발생)
                 - 운영 이벤트 발생시, slack-api를 통해 message 전송 기능 개발.
             - Reservation API 개발 (Java, Spring Boot, Gradle, Kafka)
