@@ -112,9 +112,12 @@ content:
               - 요금표를 이용해 판매설정 자동 생성 기능 개발.
             - 리펙토링 & 운영 이슈
               - JPA를 이용하여 불필요한 데이터 조회로 Full Scan이 발생하여 Covering Index로 처리 되도록 수정.
-              - 판매설정에서 동시서 이슈가 발생하여, JPA Optimistic Locking을 적용.
+              - 비즈니스 로직없이 relay만하는 mashup프로젝트에 불필요한 DTO가 생성되지 않도록 Spring Proxy Exchange 적용.
+              - 한화 CRS API를 직접 호출해서 조회할 수 있는 편의 기능 개발.
+              - 사용자를 강제로 로그아웃 시키기 위해 Kafka를 호출하는 기능을 JWT토큰을 확인하여 처리하도록 수정.
+              - 판매설정에서 동시성 이슈가 발생하여, JPA Optimistic Locking을 적용.
               - Spring Scheduler가 중복실행되는 이슈를 막기위해 Scheduler Lock 적용.
-              - 자주 호출되는 사용자 접근 가능한 숙소정보와 권한 정보를 가져오는 2개의 API를 query 하나로 처리하도록 병합하고 cache적용.
+              - 자주 호출되는 사용자 접근 가능한 숙 소정보와 권한 정보를 가져오는 2개의 API를 query 하나로 처리하도록 병합하고 cache적용.
               - MSA 모듈의 잘못된 설계로 복잡하고 느린 API 정리.
                 - sos-mashup -> pc-api -> pc-member-api -> hst-api | sos-mashup -> hst-api
       - layout: left
