@@ -76,8 +76,9 @@ content:
         quote: >
           Full-Stack Hospitality Service Provider
         description: | 
-            - 파트너센터 Backend 개발 (Java, Spring Boot, Gradle)
-            - 파트너센터 관리자 Backend 개발 (Java, Spring Boot, Gradle)
+            - 파트너센터/관리자 Backend 개발 (Java, Spring Boot, Gradle)
+              - 권한
+            
             - 제휴입점 관리자 Backend 개발 (Kotlin, Spring Boot, Spring Cloud Gateway, Gradle)
             - Reservation API 개발 (Java, Spring Boot, Gradle, Kafka)
             - Rateplan API 개발 (Java, Spring Boot, Gradle, Kafka)
@@ -104,8 +105,8 @@ content:
           Japanese e-commerce and online retailing company based in Tokyo  
         description: | 
             - Rakuten Mobile App server 개발 (Java, Spring Boot, Gradle) 
-            - CS AI Chabot 개발 (Vaadin, Spring Boot, Maven) 
-            - Microservice API 개발 (Spring-cloud, Gradle)
+            - CS AI Chatbot 개발 (Vaadin, Spring Boot, Maven) 
+            - Microservice API 개발 (Spring-cloud, Gradle, Strangler Pattern)
             - Distributed operating system 구축 (DC/OS, Azure, Kubernetes, Istio, GCP)
             - Third party API Integration (KDDI, Docomo, Google)
             - Legacy system migration (Perl and PL/SQL to Java, Spring and JPA)
@@ -130,7 +131,7 @@ content:
           "How did we ever live without Coupang?" | Coupang is the largest e-commerce company in Korea
         description: | 
             - CS Platform
-              - Chatting server 개발(NodeJS, Spring, Gradle)
+              - Chatting server 개발(NodeJS, Spring, Gradle, Strangler Pattern)
               - Application server 개발 (Linux, Java, Spring, Gradle)
               - Web client 개발 (JavaScript, handlebars)
             - Biz Platform
