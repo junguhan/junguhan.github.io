@@ -99,17 +99,21 @@ content:
               - 호텔나우 시스템 분석
               - 호텔나우 데이터 컨버팅
               - rateplan-api 정보와 병합
-              - supplier-rateplan에 저장.
-              - 호텔나우 숙소/요금제 추가시, 실시간 동기화 기능.
+              - supplier-rateplan에 저장, 상품플랫폼팀으로 Kafka를 통해 전송.
+              - 호텔나우 숙소/요금제 추가시, Kafka를 이용한 실시간 동기화 기능.
             - 한화 CRS 연동 (Java, Spring Boot, Gradle, Kafka)
               - 한화 CRS 분석
               - 한화 숙소/객실/패키지/가격/수량 동기화.
               - 야놀자 요금제와 한화 요금제 맵핑.
               - 예약/취소 기능 개발.
               - 실패처리 알림 및 관리 기능 개발.
-            - 요금표 기능 개발.
-            - 리펙토링
+            - 요금표 기능 개발 (Java, Spring Boot, Gradle, Kafka)
+              - 요금표 관리 기능 개발
+              - 요금표를 이용해 판매설정 자동 생성 기능 개발.
+            - 리펙토링 & 운영 이슈
               - JPA를 이용하여 불필요한 데이터 조회로 Full Scan이 발생하여 Covering Index로 처리 되도록 수정.
+              - 판매설정에서 동시서 이슈가 발생하여, JPA Optimistic Locking을 적용.
+              - Spring Scheduler가 중복실행되는 이슈를 막기위해 Scheduler Lock 적용.
               - 자주 호출되는 사용자 접근 가능한 숙소정보와 권한 정보를 가져오는 2개의 API를 query 하나로 처리하도록 병합하고 cache적용.
               - MSA 모듈의 잘못된 설계로 복잡하고 느린 API 정리.
                 - sos-mashup -> pc-api -> pc-member-api -> hst-api | sos-mashup -> hst-api
