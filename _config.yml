@@ -129,16 +129,19 @@ content:
         quote: >
           Top internet-only lender Kakao Bank  
         description: | # this will include new lines to allow paragraphs
-            - 정보관리 시스템 개발
+            - 정보관리 시스템 개발.(카카오뱅크의 SW/HW 자산들의 정보를 관리. ex:무엇을,누가,무슨 용도로,기간, zone)
               - 정보관리 flow 분석.
+              - 자산 관리 시스템 연동.
+              - 정보관리 기능 개발.
             - S3기반의 파일 관리 시스템 개발 (MinIO, Spring Boot, Spring Security OAuth2.0, Gradle, MySQL)
               - MinIO Cluster 구성.
               - OAuth2.0과 JWT로 인증서버 개발.
               - 파일 관리 기능 개발.
             - 도커 배포 시스템 개발 (Python, Python-eve, Spring Boot, Spring Security, Gradle, MongoDB)
-              - Python-eve로 개발되어있는 시스템을 Java, Spring Boot로 컨버팅.
+              - Python-Eve로 개발되어있는 시스템을 Java, Spring Boot로 컨버팅.
               - Spring Security를 이용한 인증/인가 기능 추가.
             - 계정관리 시스템 개발 (OpenLDAP, Spring Boot, Gradle, MySQL)
+              - 계정이 잠기는 사례가 많이 발생하여 운영업무로 잠금을 해제해 줘야하는 일이 빈번하게 발생하여 잠금 해제 기능을 개발.(Web, Mobile)
       - layout: left
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://rakuten.com/
