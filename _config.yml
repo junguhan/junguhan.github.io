@@ -94,7 +94,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - S3기반의 파일 관리 시스템 개발 (MinIO, Spring Boot, Spring Security OAuth2.0, Gradle, MySQL)
             - 도커 배포 시스템 개발 (Ansible, Jenkins, Spring Boot, Gradle, MongoDB)
-            - 계정관리 시스템 개발 (OpenLDAP, Spring Boot, Gradle, Orcacle, MySQL)
+            - 계정관리 시스템 개발 (OpenLDAP, Spring Boot, Gradle, MySQL)
       - layout: left
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://rakuten.com/
