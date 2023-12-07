@@ -120,6 +120,7 @@ content:
               - 자주 호출되는 사용자 접근 가능한 숙 소정보와 권한 정보를 가져오는 2개의 API를 query 하나로 처리하도록 병합하고 cache적용.
               - MSA 모듈의 잘못된 설계로 복잡하고 느린 API 정리.
                 - sos-mashup -> pc-api -> pc-member-api -> hst-api | sos-mashup -> hst-api
+
       - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
         link: https://kakaobank.com/
@@ -137,11 +138,12 @@ content:
               - MinIO Cluster 구성.
               - OAuth2.0과 JWT로 인증서버 개발.
               - 파일 관리 기능 개발.
-            - 도커 배포 시스템 개발 (Python, Python-eve, Spring Boot, Spring Security, Gradle, MongoDB)
+            - 도커 배포 시스템 개발 (Python, Python-Eve, Spring Boot, Spring Security, Gradle, MongoDB)
               - Python-Eve로 개발되어있는 시스템을 Java, Spring Boot로 컨버팅.
               - Spring Security를 이용한 인증/인가 기능 추가.
             - 계정관리 시스템 개발 (OpenLDAP, Spring Boot, Gradle, MySQL)
               - 계정이 잠기는 사례가 많이 발생하여 운영업무로 잠금을 해제해 줘야하는 일이 빈번하게 발생하여 잠금 해제 기능을 개발.(Web, Mobile)
+
       - layout: left
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://rakuten.com/
@@ -174,7 +176,7 @@ content:
         sub_title: Software Engineer
         caption: Mar 2015 - Apr 2016
         quote: >
-          "How did we ever live without Coupang?" | Coupang is the largest e-commerce company in Korea
+          "How did we ever live without Coupang?" | Coupang is the largest E-Commerce company in Korea
         description: | 
             - CS Platform
               - Chatting server 개발(NodeJS, Spring, Gradle, Strangler Pattern)
@@ -208,7 +210,7 @@ content:
       - layout: left
         title: Standards / Frameworks
         description: | 
-            Spring, Spring-boot, Spring-cloud, Spring-security, Spring-data, Spring-data-redis, Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Ehcache, Servlet, AJAX, JQuery, RESTful, Flyway, Junit, Mockito, Spock, Play framework, Skinny-orm,  Django, Grails, AngularJS, NodeJS, ReactJS
+            Spring, Spring-boot, Spring-cloud, Spring-security, Spring-data, Spring-data-redis, Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Ehcache, Servlet, AJAX, JQuery, RESTful, Flyway, Junit, Mockito, Spock, Play framework, Skinny-orm, Django, Grails, AngularJS, NodeJS, ReactJS
       - layout: left
         title: Web Servers / Application Servers
         description: | 
