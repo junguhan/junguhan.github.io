@@ -68,7 +68,7 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: up
+      - layout: top
         title: 야놀자 (Yanolja Co.,Ltd)
         link: https://yanolja.com/
         sub_title: Software Engineer
