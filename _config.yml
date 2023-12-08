@@ -116,10 +116,10 @@ content:
               - 한화 CRS API를 직접 호출해서 조회할 수 있는 편의 기능 개발.
               - 사용자를 강제로 로그아웃 시키기 위해 Kafka를 호출하는 기능을 JWT토큰을 확인하여 처리하도록 수정.
               - 판매설정에서 동시성 이슈가 발생하여, JPA Optimistic Locking을 적용.
-              - Spring Scheduler가 중복실행되는 이슈를 막기위해 Scheduler Lock 적용.
+              - Spring Scheduler가 중복 실행되는 이슈를 막기위해 Scheduler Lock 적용.
               - 자주 호출되는 사용자 접근 가능한 숙 소정보와 권한 정보를 가져오는 2개의 API를 query 하나로 처리하도록 병합하고 cache적용.
               - MSA 모듈의 잘못된 설계로 복잡하고 느린 API 정리.
-                - sos-mashup -> pc-api -> pc-member-api -> hst-api | sos-mashup -> hst-api
+                - (sos-mashup -> pc-api -> pc-member-api -> hst-api) to (sos-mashup -> hst-api)
 
       - layout: left
         title: 카카오 뱅크 (Kakao Bank Corp.,)
@@ -158,7 +158,7 @@ content:
               - Rakuten AI Chatbot API 연동 (IBM Watson)
               - Vaddin을 이용하여 frontend 개발.
             - Microservice API 개발 (Spring-cloud, Gradle, Strangler Pattern)
-              - 기존의 Monolithic시스템을 user-api, auth-api, mobile-data-api 등으로 Strangler Pattern으로 점진적으로 변경
+              - 기존의 Monolithic시스템을 user-api, auth-api, mobile-data-api 등 점진적으로 변경 (Strangler Pattern)
             - Distributed operating system 구축 (DC/OS, Azure, Kubernetes, Istio, GKE)
               - Azure Container Service를 이용하여 배포환경 구축.
               - Azure Container Service를 GKE로 변경. 
@@ -193,7 +193,7 @@ content:
         description: | 
             - CS Platform
               - 채팅 상담 서비스 (NodeJS, Spring, Gradle, Strangler Pattern)
-                - NodeJs로 만들어진 채팅 상담 서비스를 Spring기반으로 변경.
+                - NodeJs로 만들어진 채팅 상담 서비스를 Spring기반으로 변경. (Strangler Pattern)
               - CS 시스템 개발.
             - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Java, Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
               - Spring MVC & MyBatis를 Spring Boot & JPA로 변환
@@ -209,12 +209,17 @@ content:
           Cloud Services Brokerage Company  
         description: | 
             - IaaS 서비스 CSB 개발.(KT-Ucloud API, Spring MVC, Spring Data JPA, MySql, AngularJS, Gradle)
+              - Infra setting
+                - MySQL Replication, Nginx, Redis
               - Back-end 개발.
                 - KT-Ucloud API 연동
                 - Spring을 이용하여 API 개발.
               - 관리자 페이지 개발
                 - AngularJS를 이용해 관리자 페이지 개발.
+                - API 개발
             - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
+              - Infra setting
+                - MySQL Replication, Nginx, Redis
               - Google Drive API 연동
               - Spring을 이용한 API 개발.
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
