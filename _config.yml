@@ -176,8 +176,9 @@ content:
         quote: >
           The first social commerce operator in Korea
         description: | 
-            - Deal contents part 개발 (Jave, Spring, Maven, AngularJS)
-              - deal 정보관리 API 개발.
+            - Deal contents part 개발 (PHP, Java, Spring, Maven, AngularJS)
+              - PHP & CodeIgniter로 되어있는 프로젝트를 Java, Spring Boot로 변경.
+              - 상품 정보 관리 API 개발.
               - AngularJS를 이용하여 관리자 페이지 개발.
             - “Shoppable project” Backend 개발 (Java, Spring, Gradle)
               - "Shoppable" 검색 시스템 분석 / 연동.
