@@ -174,7 +174,11 @@ content:
           The first social commerce operator in Korea
         description: | 
             - Deal contents part 개발 (Jave, Spring, Maven, AngularJS)
+              - deal 정보관리 API 개발.
+              - AngularJS를 이용하여 관리자 페이지 개발.
             - “Shoppable project” Backend 개발 (Java, Spring, Gradle)
+              - "Shoppable" 검색 시스템 분석 / 연동.
+              - App과 Web에 Shoppable 검색 정보를 전달 할 수 있는 API 개발.
 
       - layout: left
         title: 쿠팡 (Coupang, Inc.)
@@ -186,12 +190,12 @@ content:
         description: | 
             - CS Platform
               - 채팅 상담 서비스 (NodeJS, Spring, Gradle, Strangler Pattern)
-                - Chatting server 개발
+                - NodeJs로 만들어진 채팅 상담 서비스를 Spring기반으로 변경.
               - CS 시스템 개발.
             - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Java, Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
               - Spring MVC & MyBatis를 Spring Boot & JPA로 변환
               - Redis를 이용하여 3rd API system 장애시 Failover 처리.
-              - Handlebars를 이용하여 최근 본 상품 개발.
+              - Handlebars를 이용하여 최근 본 상품 UI Component 개발.
 
       - layout: left
         title: 소프트웨어인라이프 (Software in Life Inc.)
@@ -208,8 +212,10 @@ content:
               - 관리자 페이지 개발
                 - AngularJS를 이용해 관리자 페이지 개발.
             - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
+              - Google Drive API 연동
+              - Spring을 이용한 API 개발.
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
-              - Google App Engine과 Google API를 이용한 전자 결제 시스템 Bakend를 개발.
+              - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend를 개발.
             - 배포환경 구축
               - Jenkin와 Nginx를 이용하여 HA 배포시스템 구축.
 
