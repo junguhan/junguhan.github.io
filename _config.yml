@@ -193,8 +193,9 @@ content:
           Cloud Services Brokerage Company  
         description: | 
             - IaaS 서비스 CSB 개발.(Kt-Ucloud API, Spring MVC, Spring Data JPA, MySql, AngularJS, Gradle)
+              - Back-end 개발.
             - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
-            - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Maven)
+            - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
 
   - title: Skills
     layout: list # Type of content section (list/text)
