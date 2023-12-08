@@ -179,10 +179,13 @@ content:
           "How did we ever live without Coupang?" | Coupang is the largest E-Commerce company in Korea
         description: | 
             - CS Platform
-              - 채팅 상담 서비스
-                - Chatting server 개발(NodeJS, Spring, Gradle, Strangler Pattern)
-              - CS 시스템.
-            - Biz Platform (최근 본 상품 & 장바구니(Cart)
+              - 채팅 상담 서비스 (NodeJS, Spring, Gradle, Strangler Pattern)
+                - Chatting server 개발
+              - CS 시스템 개발.
+            - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Java, Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
+              - Spring MVC & MyBatis를 Spring Boot & JPA로 변환
+              - Redis를 이용하여 3rd API system 장애시 Failover 처리.
+              - Handlebars를 이용하여 최근 본 상품 개발.
 
       - layout: left
         title: 소프트웨어인라이프 (Software in Life Inc.)
@@ -192,8 +195,11 @@ content:
         quote: >
           Cloud Services Brokerage Company  
         description: | 
-            - IaaS 서비스 CSB 개발.(Kt-Ucloud API, Spring MVC, Spring Data JPA, MySql, AngularJS, Gradle)
+            - IaaS 서비스 CSB 개발.(KT-Ucloud API, Spring MVC, Spring Data JPA, MySql, AngularJS, Gradle)
               - Back-end 개발.
+                - KT-Ucloud API 연동
+              - 관리자 페이지 개발
+                - AngularJS를 이용해 관리자 페이지 개발.
             - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
 
