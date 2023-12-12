@@ -194,11 +194,11 @@ content:
         description: | 
             - CS Platform
               - 채팅 상담 서비스 (NodeJS, Spring, Gradle, Strangler Pattern)
-                - NodeJs로 만들어진 채팅 상담 서비스를 Spring기반으로 변경. (Strangler Pattern)
+                - NodeJs로 만들어진 채팅 상담 서비스를 Spring기반으로 변경.(Strangler Pattern)
               - CS 시스템 개발.
             - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Java, Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
               - Spring MVC & MyBatis를 Spring Boot & JPA로 변환
-              - Redis를 이용하여 3rd API system 장애시 Failover 처리.
+              - Redis를 이용하여 3rd API system 장애시 Failover 처리.(Circuit Breaker)
               - Handlebars를 이용하여 최근 본 상품 UI Component 개발.
 
       - layout: left
@@ -226,6 +226,7 @@ content:
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
               - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend를 개발.
             - 현대 중공업 스마트 그리드 프로젝트 개발.
+              - 대량의 데이터(전력 사용량)를 log-file을 기반으로 CDC pool방식으로 처리.
             - 배포환경 구축
               - Jenkin와 Nginx를 이용하여 HA 배포시스템 구축.
 
