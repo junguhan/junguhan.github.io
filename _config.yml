@@ -225,6 +225,7 @@ content:
               - Spring을 이용한 API 개발.
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
               - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend를 개발.
+            - 현대 중공업 스마트 그리드 프로젝트 개발.
             - 배포환경 구축
               - Jenkin와 Nginx를 이용하여 HA 배포시스템 구축.
 
