@@ -173,12 +173,12 @@ content:
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://rakuten.com/
         link_text: rakuten.com
-        sub_title: Software Engineer & DevOps Team Leader
+        sub_title: Software Engineer & Team Lead, DevOps Team
         caption: Feb 2017 - Mar 2020
         quote: >
           Japanese e-commerce and online retailing company based in Tokyo  
         description: | 
-            - Rakuten Mobile App server 개발 (Java, Spring Boot, Gradle) 
+            - Rakuten Mobile App server 개발 (Java, Spring Boot, Gradle, Docker) 
               - Rakuten Mobile APP으로 데이터/요금등을 관리 할 수 있는 API 개발.
             - CS AI Chatbot 개발 (Vaadin, Spring Boot, Maven) 
               - Rakuten AI Chatbot API 연동 (IBM Watson)
