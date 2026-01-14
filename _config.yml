@@ -105,7 +105,7 @@ content:
         quote: >
           Full-Stack Hospitality Service Provider
         description: | 
-            - 선매입 호텔 가격 일괄 조정 기능 개발 (Java, Spring Boot, Spring Data JPA, MyBatis, Kafka, Gradle, Slack API)
+            - 선매입 호텔 가격 일괄 조정 기능 개발 (Spring Boot, Spring Data JPA, MyBatis, Kafka, Gradle, Slack API)
               - 지역별 선매입 호텔 관리 기능
                 - 가격 조정이 필요한 선매입 호텔 관리 기능을 개발.
               - 가격 조정 제외 조건 관리 기능
@@ -130,13 +130,13 @@ content:
               - rateplan-api 정보와 병합
               - supplier-rateplan에 저장, 상품플랫폼팀으로 Kafka를 통해 전송.
               - 호텔나우 숙소/요금제 추가시, Kafka를 이용한 실시간 동기화 기능.
-            - 한화 CRS 연동 (Java, Spring Boot, Gradle, Kafka)
+            - 한화 CRS 연동 (Spring Boot, Gradle, Kafka)
               - 한화 CRS 분석
               - 한화 숙소/객실/패키지/가격/수량 동기화.
               - 야놀자 요금제와 한화 요금제 맵핑.
               - 예약/취소 기능 개발.
               - 실패처리 알림 및 관리 기능 개발.
-            - 요금표 기능 개발 (Java, Spring Boot, Gradle, Kafka)
+            - 요금표 기능 개발 (Spring Boot, Gradle, Kafka)
               - 요금표 관리 기능 개발
               - 요금표를 이용해 판매설정 자동 생성 기능 개발.
             - 리펙토링 & 운영 이슈
@@ -187,7 +187,7 @@ content:
             - CS AI Chatbot 개발 (Vaadin, Spring Boot, Maven) 
               - Rakuten AI Chatbot API 연동 (IBM Watson)
               - Vaddin을 이용하여 frontend 개발.
-            - Monolithic -> MSA 전화 (Spring-cloud, Gradle, Strangler Pattern)
+            - Monolithic -> MSA 전화 (Spring Cloud, Gradle, Strangler Pattern)
               - 기존의 Monolithic시스템을 user-api, auth-api, mobile-data-api 등 점진적으로 변경 (Strangler Pattern)
             - Distributed operating system 구축 (DC/OS, Azure, Kubernetes, Istio, GKE)
               - Azure Container Service를 이용하여 배포환경 구축.
@@ -229,7 +229,7 @@ content:
               - 채팅 상담 서비스 (NodeJS, Spring, Gradle, Strangler Pattern)
                 - NodeJS로 만들어진 채팅 상담 서비스를 Spring기반으로 변경.(Strangler Pattern)
               - CS 시스템 개발.
-            - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Java, Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
+            - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
               - Spring MVC & MyBatis를 Spring Boot & JPA로 변환
               - Redis를 이용하여 3rd API system 장애시 Failover 처리.(Circuit Breaker)
               - Handlebars를 이용하여 최근 본 상품 UI Component 개발.
@@ -252,12 +252,12 @@ content:
               - 관리자 페이지 개발
                 - AngularJS를 이용해 관리자 페이지 개발.
                 - REST API 개발
-            - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
+            - 전자문서 결재 시스템 Docswave 개발. (Spring MVC, Spring Data JPA Google Docs API, Gradle)
               - Infra setting
                 - MySQL Replication, Nginx, Redis
               - Google Drive API 연동.
               - REST API 개발.
-            - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
+            - 전자문서 결재 시스템 Docflow 개발. (Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
               - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend 개발.
             - 현대 중공업 스마트 그리드 프로젝트 개발.
               - 대량의 데이터(전력 사용량)를 log-file을 기반으로 CDC pool방식으로 처리.
@@ -278,11 +278,11 @@ content:
       - layout: left
         title: Web Servers / Application Servers
         description: | 
-            Apache, Nginx, Tomcat, Jetty, GlassFish
+            Apache, Nginx, Tomcat, Jetty
       - layout: left
         title: Databases
         description: | 
-            Oracle, MySQL, MariaDB, Redis, MongoDB
+            Oracle, MySQL, MariaDB, postgreSQL, Redis, MongoDB
       - layout: left
         title: Development / Environment Tools / Techniques
         description: | 
