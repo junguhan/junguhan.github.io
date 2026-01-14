@@ -274,7 +274,7 @@ content:
       - layout: left
         title: Standards / Frameworks
         description: | 
-            Spring(MVC, Boot, Cloud, Data, Security, etc.), Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Ehcache, Servlet, AJAX, JQuery, RESTful, Flyway, Junit, Mockito, Spock, Play framework, Skinny-orm, Django, Grails, AngularJS, NodeJS, ReactJS
+            Spring(MVC, Boot, Cloud, Data, Security, etc.), Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Mockito, Spock, AngularJS, NodeJS
       - layout: left
         title: Web Servers / Application Servers
         description: | 
@@ -282,11 +282,11 @@ content:
       - layout: left
         title: Databases
         description: | 
-            Oracle, MySQL, MariaDB, Redis, MongoDB, Google Cloud SQL, Google Datastore, AWS Aurora
+            Oracle, MySQL, MariaDB, Redis, MongoDB
       - layout: left
         title: Development / Environment Tools / Techniques
         description: | 
-            Git, Subversion, Jenkins, Jira, Google Compute Engine, Google Kubernetes Engine, AWS, Azure, Nexus, JMeter, nGrinder, Pinpoint, DC/OS, Kubernetes, Docker, Kafka
+            Git, Jenkins, Jira, Confluence, GCP, AWS, Azure, Nexus, JMeter, nGrinder, Pinpoint, DC/OS, K8s, Docker, Kafka, RabbitMQ
       
 
   - title: Education # Title for the section
