@@ -251,7 +251,7 @@ content:
             - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
               - Infra setting
                 - MySQL Replication, Nginx, Redis
-              - Google Drive API 연동
+              - Google Drive API 연동.
               - REST API 개발.
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
               - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend 개발.
