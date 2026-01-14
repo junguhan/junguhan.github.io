@@ -86,15 +86,15 @@ content:
                 - REST API 개발
                   - 로그인, 회원관리, 매출관리 등의 API 개발 (Spring boot, spring JPA, QueryDSL, spring security, spring cloud stream, JWT)
                   - 외부 API 연동: 모바일신분증(mobileid), PASS 인증서, Kakao Maps API, KG이니시스-통합인증서비스
+                - Performance tuning
+                  - Redis Pipelining
+                  - SQL Query Tuning
+                  - MessagePack & Protobuf
               - 개발 환경 구성 
                 - Naver Cloud 환경 구성: VM, Cloud DB, Object Storage, Container Registry
                 - 배포환경 구성 : Git, Jenkins, Docker, Nginx를 이용하여 배포환경 구성
                 - RabbitMQ Cluster 구성
                 - Redis Cluster 구성
-              - Performance tuning
-                - Redis Pipelining
-                - SQL Query Tuning
-                - MessagePack & Protobuf
               
       - layout: left
         title: 야놀자 (Yanolja Co.,Ltd)
