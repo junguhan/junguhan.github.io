@@ -78,7 +78,7 @@ content:
           Vend ANYTHING
         description: | # this will include new lines to allow paragraphs
             - NextVend 서비스 개발. (RabbitMQ, MQTT, Protobuf, Spring, MySQL, Docker, Tomcat)
-              - Back-end 개발
+              - Backend 개발
                 - 아키텍쳐 설계
                   - RabbitMQ를 이용하여 C#(Window Application)과 WAS가 메세지 기반으로 비동기 통신하도록 구성
                   - MQTT와 Protobuf를 사용하여 데이터와 패킷 사이즈를 경량화
@@ -91,6 +91,10 @@ content:
                 - 배포환경 구성 : Git, Jenkins, Docker, Nginx를 이용하여 배포환경 구성
                 - RabbitMQ Cluster 구성
                 - Redis Cluster 구성
+             - Performance tuning
+               - Redis Pipelining
+               - SQL Query Tuning
+               - MessagePack & Protobuf
               
       - layout: left
         title: 야놀자 (Yanolja Co.,Ltd)
