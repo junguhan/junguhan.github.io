@@ -173,7 +173,7 @@ content:
         title: 라쿠텐 (Rakuten, Inc.)
         link: https://rakuten.com/
         link_text: rakuten.com
-        sub_title: Software Engineer & Team Lead, DevOps Team
+        sub_title: Team Lead, DevOps Team
         caption: Feb 2017 - Mar 2020
         quote: >
           Japanese e-commerce and online retailing company based in Tokyo  
@@ -183,7 +183,7 @@ content:
             - CS AI Chatbot 개발 (Vaadin, Spring Boot, Maven) 
               - Rakuten AI Chatbot API 연동 (IBM Watson)
               - Vaddin을 이용하여 frontend 개발.
-            - Microservice API 개발 (Spring-cloud, Gradle, Strangler Pattern)
+            - Monolithic -> MSA 전화 (Spring-cloud, Gradle, Strangler Pattern)
               - 기존의 Monolithic시스템을 user-api, auth-api, mobile-data-api 등 점진적으로 변경 (Strangler Pattern)
             - Distributed operating system 구축 (DC/OS, Azure, Kubernetes, Istio, GKE)
               - Azure Container Service를 이용하여 배포환경 구축.
@@ -192,7 +192,7 @@ content:
               - Google Billing System 연동 (File Base의 구조로 되어 있어서 Spring scheduler로 단계적으로 처리하도록 개발)
               - KDDI, Docomo 통신사 API 연동 (맵퍼를 이용하여 Response 객체를 공통으로 사용하도록 통합)
             - Legacy system migration (Perl and PL/SQL to Java, Spring and JPA)
-              - oracle database load average가 높아져서 데이터가 잘 처리되지 않는 현상이 발생하여 원인 진단 및 조치.(Query tuning, Converting to JAVA) 
+              - Oracle Database Load Average가 높아져서 데이터가 잘 처리되지 않는 현상이 발생하여 원인 진단 및 조치.(Query tuning, Converting to JAVA) 
               - Perl & Catalyst & PL/SQL 로 이루어진 레거시 시스템을 Java, Spring Boot로 변환.
 
       - layout: left
@@ -223,7 +223,7 @@ content:
         description: | 
             - CS Platform
               - 채팅 상담 서비스 (NodeJS, Spring, Gradle, Strangler Pattern)
-                - NodeJs로 만들어진 채팅 상담 서비스를 Spring기반으로 변경.(Strangler Pattern)
+                - NodeJS로 만들어진 채팅 상담 서비스를 Spring기반으로 변경.(Strangler Pattern)
               - CS 시스템 개발.
             - Biz Platform - 최근 본 상품 & 장바구니(Cart) (Java, Spring Boot, Handlebars, Redis, MySql, Gradle, Maven)
               - Spring MVC & MyBatis를 Spring Boot & JPA로 변환
@@ -234,7 +234,7 @@ content:
         title: 소프트웨어인라이프 (Software in Life Inc.)
         link: https://docswave.com/
         link_text: docswave.com
-        sub_title: Software Engineer & Solution Part Leader
+        sub_title: Software Engineer
         caption: Nov 2011 - Mar 2015
         quote: >
           Cloud Services Brokerage Company  
@@ -244,17 +244,17 @@ content:
                 - MySQL Replication, Nginx, Redis
               - Back-end 개발.
                 - KT-Ucloud API 연동
-                - Spring을 이용하여 API 개발.
+                - REST API 개발.
               - 관리자 페이지 개발
                 - AngularJS를 이용해 관리자 페이지 개발.
-                - Spring MVC를 이용하여 API 개발
+                - REST API 개발
             - 전자문서 결재 시스템 Docswave 개발. (Java, Spring MVC, Spring Data JPA Google Docs API, Gradle)
               - Infra setting
                 - MySQL Replication, Nginx, Redis
               - Google Drive API 연동
-              - Spring을 이용한 API 개발.
+              - REST API 개발.
             - 전자문서 결재 시스템 Docflow 개발. (Java, Spring MVC, MyBatis, Google Docs API, Google App Engine, Maven)
-              - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend를 개발.
+              - Google App Engine과 Google API를 이용한 전자 결제 시스템 Backend 개발.
             - 현대 중공업 스마트 그리드 프로젝트 개발.
               - 대량의 데이터(전력 사용량)를 log-file을 기반으로 CDC pool방식으로 처리.
             - 배포환경 구축
@@ -270,7 +270,7 @@ content:
       - layout: left
         title: Standards / Frameworks
         description: | 
-            Spring, Spring-boot, Spring-cloud, Spring-security, Spring-data, Spring-data-redis, Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Ehcache, Servlet, AJAX, JQuery, RESTful, Flyway, Junit, Mockito, Spock, Play framework, Skinny-orm, Django, Grails, AngularJS, NodeJS, ReactJS
+            Spring(MVC, Boot, Cloud, Data, Security, etc.), Gradle, Maven, SBT, QueryDSL, Hibernate, MyBatis, Ehcache, Servlet, AJAX, JQuery, RESTful, Flyway, Junit, Mockito, Spock, Play framework, Skinny-orm, Django, Grails, AngularJS, NodeJS, ReactJS
       - layout: left
         title: Web Servers / Application Servers
         description: | 
