@@ -77,14 +77,14 @@ content:
         quote: >
           Vend ANYTHING
         description: | # this will include new lines to allow paragraphs
-            - NextVend 서비스 개발. (RabbitMQ, MQTT, Protobuf, Spring, MySQL, Docker, Tomcat)
+            - NextVend 서비스 개발. (RabbitMQ, MQTT, Protobuf, Spring Boot, MySQL, Docker)
               - Backend 개발
                 - 아키텍쳐 설계
                   - RabbitMQ를 이용하여 C#(Window Application)과 WAS가 메세지 기반으로 비동기 통신하도록 구성
                   - MQTT와 Protobuf를 사용하여 데이터와 패킷 사이즈를 경량화
                   - 데이터 모델링
                 - REST API 개발
-                  - 로그인, 회원관리, 매출관리 등의 API 개발 (Spring boot, spring JPA, QueryDSL, spring security, spring cloud stream, JWT)
+                  - 로그인, 회원관리, 매출관리 등의 API 개발 (Spring Boot, Spring JPA, QueryDSL, Spring Security, Spring Cloud Stream, JWT)
                   - 외부 API 연동: 모바일신분증(mobileid), PASS 인증서, Kakao Maps API, KG이니시스-통합인증서비스
                 - Performance tuning
                   - Redis Pipelining
@@ -114,7 +114,7 @@ content:
                 - 가격 제외 조건에 포함되지 않는 판매설정에 대해 일괄 가격 조정 기능 개발.
                 - 가격 조정 결과 내역 관리 기능 개발
               - 가격 조정시 알림 기능
-                - 가격 조정 발생시, slack-api를 통해 slack-message 발송 기능 개발.
+                - 가격 조정 발생시, Slack API를 통해 slack-message 발송 기능 개발.
             - 모텔 선매입 BM 도입 (Java, Kotlin, Spring Boot, Spring Data JPA, Spring Cloud OpenFeign, Kafka, Gradle, Slack API, Apache POI)
               - 제휴입점관리자에 모텔 선매입 요금제 등록 기능 개발
               - 계약 API를 연동하여 계약 상태 validation
@@ -123,7 +123,7 @@ content:
                 - 판매설정 일괄 업데이트, 업데이트 내역 관리 기능 개발
                 - 매출/예약 관리 기능 개발
               - 이벤트 알림 기능(매진 임박, 오버부킹 발생)
-                - 운영 이벤트 발생시, slack-api를 통해 message 전송 기능 개발.
+                - 운영 이벤트 발생시, Slack API를 통해 message 전송 기능 개발.
             - 호텔 데이터 통합 Backend 개발 & Data migration (Java, PHP, Spring Boot, Gradle, Kafka)
               - 호텔나우 시스템 분석
               - 호텔나우 데이터 컨버팅
